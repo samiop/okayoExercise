@@ -9,10 +9,10 @@ Voici la structure de mon projet, où l’on distingue le dossier controller qui
 
 Si vous avez PostgreSQL déjà installé, vous pouvez passer à l’étape 2.
 
-Pour installer PostgreSQL, veuillez lancer la commande winget install -e --id PostgreSQL.PostgreSQL.16.
+1) Pour installer PostgreSQL, veuillez lancer la commande winget install -e --id PostgreSQL.PostgreSQL.16.
 Si cela ne marche pas, essayez de trouver le paquet disponible avec la commande : winget search postgresql, puis relancez la commande précédente.
 
-Ouvrez une ligne de commande en administrateur, puis
+2) Ouvrez une ligne de commande en administrateur, puis
 git pull <lien>
 
 Pour lancer le projet :
