@@ -3,6 +3,8 @@ Technologies utilisées :
 Spring Boot + Postman pour le test du CRUD + PostgreSQL
 
 Voici la structure de mon projet, où l’on distingue le dossier controller qui contient tous les contrôleurs de nos entités, le dossier model qui comprend nos classes (entités) et le dossier repositories (qui contient l’interaction avec la base de données pour chaque entité).
+
+
 <img width="286" height="840" alt="image" src="https://github.com/user-attachments/assets/ba69a995-083c-4cf3-a487-af040806a3cb" />
 
 Si vous avez PostgreSQL déjà installé, vous pouvez passer à l’étape 2.
