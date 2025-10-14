@@ -23,11 +23,19 @@ Puis, si vous êtes sur Visual Studio Code, installez l’extension Connect to S
 
 <img width="1010" height="647" alt="image" src="https://github.com/user-attachments/assets/d1e0a216-54a9-47f7-a2bb-6d4af8e5db0c" />
 
+<img width="1640" height="1047" alt="image" src="https://github.com/user-attachments/assets/eee0a3b1-a185-44c5-9c02-a26a97793344" />
+
 
 Ensuite, si vous voulez créer, modifier et récupérer des clients, produits et factures, vous pouvez le faire via http://localhost:8080/....
 Exemple :
 
 <img width="1400" height="571" alt="image" src="https://github.com/user-attachments/assets/bc7dad6a-2c7c-4025-945b-b011d36797e6" />
+
+
+Après la création de toutes nos tables, on remplace  cette ligne avec la  ligne : spring.jpa.hibernate.ddl-auto=update pour qu'on puisse modfier nos lignes de tables  
+<img width="687" height="277" alt="image" src="https://github.com/user-attachments/assets/1db0d4b4-749e-48b7-b5ba-22ef9b0447f3" />
+
+
 
 
 Amélioration : 
