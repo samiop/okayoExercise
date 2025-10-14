@@ -9,6 +9,7 @@ import java.math.BigDecimal;
 @Table(name = "invoice_lines")
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
 public class InvoiceLine {
+   //pour l'auto incrementation de l'id
   @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 

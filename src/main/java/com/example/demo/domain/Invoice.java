@@ -29,11 +29,11 @@ public class Invoice {
   @JoinColumn(name = "customer_id", nullable = false)
   private Customer customer;
 
-  @Column(name = "total_ht", nullable = false, precision = 19, scale = 2)
+  @Column(name = "total_ht", nullable = false, scale = 2)
   @Builder.Default
   private BigDecimal totalHt = BigDecimal.ZERO;
 
-  @Column(name = "total_ttc", nullable = false, precision = 19, scale = 2)
+  @Column(name = "total_ttc", nullable = false, scale = 2)
   @Builder.Default
   private BigDecimal totalTtc = BigDecimal.ZERO;
 
