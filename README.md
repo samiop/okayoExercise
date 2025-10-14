@@ -19,9 +19,25 @@ Pour lancer le projet :
 mvnw.cmd spring-boot:run
 Puis, si vous êtes sur Visual Studio Code, installez l’extension Connect to Server, après quoi accédez à la base de données en renseignant le username, le password et le database name indiqués dans le fichier application.properties.
 
+
+
+<img width="1010" height="647" alt="image" src="https://github.com/user-attachments/assets/d1e0a216-54a9-47f7-a2bb-6d4af8e5db0c" />
+
+
 Ensuite, si vous voulez créer, modifier et récupérer des clients, produits et factures, vous pouvez le faire via http://localhost:8080/....
 Exemple :
 
 <img width="1400" height="571" alt="image" src="https://github.com/user-attachments/assets/bc7dad6a-2c7c-4025-945b-b011d36797e6" />
+
+
+Amélioration : 
+1) on peut rajouter swagger UI pour une meilleure visualisation des api's  
+2) rajouter une interface graphique avec react pour la mise en place d'une facture et ses lignes de facture 
+
+
+
+
+
+
 
 Et voilà.
