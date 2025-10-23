@@ -5,8 +5,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.demo.Repositories.InvoiceLineRepository;
 import com.example.demo.domain.InvoiceLine;
+import com.example.demo.repositories.InvoiceLineRepository;
 
 import java.util.List;
 

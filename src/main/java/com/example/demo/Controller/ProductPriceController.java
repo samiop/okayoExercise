@@ -4,8 +4,8 @@ import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.demo.Repositories.ProductPriceRepository;
 import com.example.demo.domain.ProductPrice;
+import com.example.demo.repositories.ProductPriceRepository;
 
 import java.net.URI;
 import java.time.LocalDate;

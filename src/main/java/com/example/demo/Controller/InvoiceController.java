@@ -1,10 +1,10 @@
 package com.example.demo.Controller;
 
 
-import com.example.demo.Repositories.InvoiceLineRepository;
-import com.example.demo.Repositories.InvoiceRepository;
 import com.example.demo.domain.Invoice;
 import com.example.demo.domain.InvoiceLine;
+import com.example.demo.repositories.InvoiceLineRepository;
+import com.example.demo.repositories.InvoiceRepository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

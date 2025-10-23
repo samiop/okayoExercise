@@ -4,8 +4,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.demo.Repositories.ProductRepository;
 import com.example.demo.domain.Product;
+import com.example.demo.repositories.ProductRepository;
 
 import java.net.URI;
 import java.util.List;
